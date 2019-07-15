@@ -1,0 +1,19 @@
+body {
+  background: url('./bg-image.jpg') top no-repeat;
+  background-size: cover;
+  animation: move 3s ease;
+}
+
+::placeholder {
+  color: gray;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(500px);
+  }
+}

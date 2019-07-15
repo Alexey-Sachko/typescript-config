@@ -1,0 +1,35 @@
+body {
+  background: url(82df77a89e0de60eb4beead09cc4d933.jpg) top no-repeat;
+  background-size: cover;
+  -webkit-animation: move 3s ease;
+          animation: move 3s ease; }
+
+::-webkit-input-placeholder {
+  color: gray; }
+
+::-moz-placeholder {
+  color: gray; }
+
+:-ms-input-placeholder {
+  color: gray; }
+
+::-ms-input-placeholder {
+  color: gray; }
+
+::placeholder {
+  color: gray; }
+
+@-webkit-keyframes move {
+  from {
+    transform: translateX(0); }
+  to {
+    transform: translateX(500px); } }
+
+@keyframes move {
+  from {
+    transform: translateX(0); }
+  to {
+    transform: translateX(500px); } }
+
+
+/*# sourceMappingURL=style.css.map*/
